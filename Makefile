@@ -23,7 +23,7 @@ html:
 
 upload:
 	@echo "${green}>>> Uploading and publishing to server${reset}"
-	rsync -avz public/ svx@blade:/var/www/leftxs.org
+	rsync -avz public/ svx@blade:/var/www/blog.ts
 
 publish: html upload
 
